@@ -1,6 +1,15 @@
 # api-serverless-aws
 
+# Despliegue de endpoints
+
+Actualice las dependencias 
+npm install
+
+Despliegue
+serverless deploy
+
 # Funciones AWS Lambda
+Revisar archivo docs/Manual de uso
 
 1. Agregar empleado
 https://vu65b71shj.execute-api.us-east-1.amazonaws.com/dev/api/employee/add 
