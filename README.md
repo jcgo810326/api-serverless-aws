@@ -1,6 +1,6 @@
 # api-serverless-aws
 
-# Despliegue de endpoints
+## Despliegue de endpoints
 
 Actualice las dependencias 
 ```sh
@@ -13,20 +13,20 @@ serverless deploy
 ```
 
 
-# Funciones AWS Lambda
+## Funciones AWS Lambda
 Revisar archivo docs/Manual de uso
 
-1. Agregar empleado
+- Agregar empleado
 https://vu65b71shj.execute-api.us-east-1.amazonaws.com/dev/api/employee/add 
 
-3. Modificar empleado
+- Modificar empleado
 https://vu65b71shj.execute-api.us-east-1.amazonaws.com/dev/api/employee/upd
 
-5. Recuperar empleado
+- Recuperar empleado
 https://vu65b71shj.execute-api.us-east-1.amazonaws.com/dev/api/employee/get/{employee_id}
 
-7. Recuperar recursos
+- Recuperar recursos
 https://vu65b71shj.execute-api.us-east-1.amazonaws.com/dev/api/starwars/{resource} 
 
-9. Recuperar recurso especifico
+- Recuperar recurso especifico
 https://vu65b71shj.execute-api.us-east-1.amazonaws.com/dev/api/starwars/{resource}/{idOrSchema}
