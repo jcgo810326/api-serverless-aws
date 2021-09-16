@@ -3,11 +3,13 @@
 # Despliegue de endpoints
 
 Actualice las dependencias 
-```npm install
+```sh
+npm install
 ```
 
 Despliegue
-```serverless deploy
+```sh
+serverless deploy
 ```
 
 
