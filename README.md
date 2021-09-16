@@ -3,10 +3,13 @@
 # Despliegue de endpoints
 
 Actualice las dependencias 
-npm install
+```npm install
+```
 
 Despliegue
-serverless deploy
+```serverless deploy
+```
+
 
 # Funciones AWS Lambda
 Revisar archivo docs/Manual de uso
