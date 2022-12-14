@@ -13,9 +13,10 @@ npm install serverless -g
 ```
 
 Configuración de usuario AWS 
-(url: https://www.serverless.com/framework/docs/providers/aws/guide/credentials/)
 ```sh
-serverless config credentials --provider aws --key AKIAZZC4UEFHBZVIMBMF --secret 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
+serverless config credentials \
+        --provider aws --key AKIAZZC4UEFHBZVIMBMF \
+        --secret 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
 ```
 
 Despliegue
@@ -23,9 +24,10 @@ Despliegue
 serverless deploy
 ```
 
-Star Wars API
+Fuentes de consulta
 ```sh
-https://swapi.dev/
+- AWS Credentials: https://www.serverless.com/framework/docs/providers/aws/guide/credentials/
+- Star Wars API: https://swapi.dev/
 ```
 
 
