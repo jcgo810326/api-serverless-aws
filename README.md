@@ -7,6 +7,16 @@ Actualice las dependencias
 npm install
 ```
 
+Instalación de serverless 
+```sh
+npm install serverless -g
+```
+
+Configuración de usuario AWS 
+```sh
+serverless config credentials --provider aws --key AKIAZZC4UEFHBZVIMBMF --secret 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
+```
+
 Despliegue
 ```sh
 serverless deploy
